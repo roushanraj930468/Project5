@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learner's Feedback Form</title>
+</head>
+<body>
+    <h1>Learner's Feedback Form</h1>
+    <form action="#">
+        <label for="Course"><b>Course</b></label><br>
+        <select name="course" id="course">
+            <option value="Default">Select course</option>
+            <option value="C">C,C++,DSA and STL</option>
+            <option value="FSWD">Full Stack Web Development</option>
+            <option value="JAVA">JAVA</option>
+            <option value="Python">Python</option>
+        </select>
+        <br>
+        <br>
+      <label for="Instructor"><b>Instructor</b></label><br>
+        <select name="Instructor" id="Instructor">
+            <option value="Default">Select Instructor</option>
+            <option value="Saurabh shukla">Saurabh shukla</option>
+            <option value="shradha didi">shradha didi</option>
+            <option value="Vikash Singh">Vikash Singh</option>
+        </select><br>
+        <br>
+      <label for="Rating"><b>Rating(1 to 5 )</b>*</label><br>
+      <input type="radio" name="rating" id="rating">1
+      <input type="radio" name="rating" id="rating">2
+      <input type="radio" name="rating" id="rating">3
+      <input type="radio" name="rating" id="rating">4
+      <input type="radio" name="rating" id="rating">5
+      <br>
+      <label for="Comments"><b>Comments:</b></label>
+      <textarea name="Comments" id="Comments" cols="50" rows="5"></textarea>
+      <br><br>
+      <input type="button" value="Submit">
+    </form>
+    
+</body>
+</html>
